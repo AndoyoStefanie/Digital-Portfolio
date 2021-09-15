@@ -6,7 +6,7 @@
     font-family: "Urbanist", sans-serif;
 }
 .navbar{
-    background-color: black;
+    background-color: #242B64;
     color:#d8d8d8;
     border-bottom: 0.5px solid gray;
     width: 100%;
@@ -64,17 +64,13 @@ background-color: gray;
 
 }
 body{
-    background-color: black;
+    background-color: #3B3E79;
 }
 .content{
     font-family: 'Urbanist';
     color:#d8d8d8;
     margin-top: 30px;
   
-}
-
-h1{
-    font-size: 70px;
 }
 p{
     margin-top: 10px;
@@ -112,14 +108,16 @@ main{
 
 }
 img{
-   
+    display: block;
     margin-right: 10px;
     margin-left: 10px;
-    width: 1250px;
-    filter: grayscale(1);
-    justify-content: center;
-    align-items: center;
+    align-items: right;
+    position: relative;
+    left:80px;
+    margin-top: 70px; 
 }
+
+
 .center {
 
 
@@ -138,21 +136,32 @@ img{
   
 }
 h1 {
-    color: wheat;
-    margin-top: 105px;
-    margin-right: 90px;
-    margin-left: 90px;
-   
+    color: white;
+    margin: 35px 70px 50px;
+    font-size: 70px;
+    vertical-align: top;
   }
+
 h2 {
-  
-    color: whitesmoke;
+    text-align: left;
+    color: white;
     margin-right: 90px;
     margin-left: 90px;
     font-size: 30px;
     
   }
-
-  body {
-    background-image: "https://images.hdqwalls.com/wallpapers/dark-minimal-scenery-4k-xj.jpg"('img_girl.jpg');
+  h3 {
+    margin-right: 90px;
+    margin-left: 90px;
+    font-size: 18px;
+  }
+  h4{
+    margin-right: 90px;
+    margin-left: 90px;
+    align-items: center;
+  }
+  .media-icons{
+      margin-top: 50px;
+      margin-left: 200px;
+      color: whitesmoke;
   }

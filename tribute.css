@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+*{
+    font-family: "Urbanist", sans-serif;
+}
+html {
+  font-family: "Urbanist", sans-serif;
+  font-size: 16.5px;
+  text-align: justify;
+}
+header {
+  background-color: #203354;
+  padding: 1px;
+  text-align: center;
+  font-size:32px;
+  margin: 1;
+}
+
+body{
+    margin: 60px;
+  }
+  .container-fluid{
+    background-color:#EEEEEE;
+  }
+  .header{
+    text-align: center;
+  }
+  #imagetext{
+    background-color: white !important;
+  }
+  .main{
+    max-width: 900px; /* for  below IE7 use `width: 660px;` */
+      margin: 0 auto;
+  }
+  li span{
+    font-weight: bold;
+    font-size: 17px;
+    color: #113065;
+  }
+  footer{
+    text-align:center;
+    background-color: #203354;
+    padding: 1px;
+    font-size:15px;
+    margin: 0.5;
+    color: whitesmoke;
+    max-width: 900px;
+  }
+  #codedby{
+    text-align:center;
+    
+  }
+
+  img source{
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 1250px;
+    filter: grayscale(1);
+    display: block;
+    max-width:100%;
+    max-height:100%;
+}
+
+h3{
+  align-items: center;
+  font-size: 21px;
+  color: #113065;
+  max-width: max-content;
+}
+body {
+    background-color:	#81b1ce;
+}
+
+p{
+  text-align: center;
+}

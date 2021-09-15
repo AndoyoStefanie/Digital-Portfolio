@@ -83,14 +83,15 @@ img {
 }
 
 ul {
-  max-width: 1000px;
+  max-width: 2000px;
   margin: 0 auto 50px auto;
-  text-align: left;
+  text-align: center;
   line-height: 1.6;
 }
 
 li {
   margin: auto;
+  font-size: 18px;
 
 }
 
