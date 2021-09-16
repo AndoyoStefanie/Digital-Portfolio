@@ -11,3 +11,11 @@ nav a:hover{
     color:black;
 
 }
+header{
+    background-image:url('http://thehypebr.com/wp-content/uploads/2010/09/boundless-sem-branco-2.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    line-height:20px; font-size:14px;
+    font-family:"Trebuchet MS";
+    margin:0
+  }
