@@ -6,3 +6,8 @@
     font-family: "Glory", sans-serif;
     font-size: 17px;
 }
+nav a:hover{
+    background: skyblue;
+    color:black;
+
+}

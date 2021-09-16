@@ -1,7 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
 margin: 0;
-background: #242B64;
+background: #81b1ce;
+font-family: "Glory", sans-serif;
+}
+nav{
+    background:  #242B64;
+    width:100%;
+    overflow: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+li{
+    float: left;
+}
+nav a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #3B3E79;
+    font-size: 17px;
+    color: white;
+    padding:20px 10px;
+    font-family: Glory;
+
 }
