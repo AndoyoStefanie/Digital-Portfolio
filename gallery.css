@@ -69,3 +69,24 @@ footer{
     font-family: "Glory";
     letter-spacing: 1px;
 }
+h2{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+
+}
+h3{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 150px;
+    align-items: center;
+}
+
+h4{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 150px;
+}
