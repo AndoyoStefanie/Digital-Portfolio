@@ -114,7 +114,7 @@ img{
     align-items: right;
     position: relative;
     left:80px;
-    margin-top: 70px; 
+    margin-top: 90px; 
 }
 
 
@@ -140,6 +140,8 @@ h1 {
     margin: 35px 70px 50px;
     font-size: 70px;
     vertical-align: top;
+    position: absolute;
+    top: 150px;
   }
 
 h2 {
@@ -148,12 +150,15 @@ h2 {
     margin-right: 90px;
     margin-left: 90px;
     font-size: 30px;
-    
+    position: absolute;
+    top: 290px;
   }
   h3 {
     margin-right: 90px;
     margin-left: 90px;
     font-size: 18px;
+    position: absolute;
+    top: 380px;
   }
   h4{
     margin-right: 90px;
@@ -163,5 +168,6 @@ h2 {
   .media-icons{
       margin-top: 50px;
       margin-left: 200px;
-      color: whitesmoke;
+      position: absolute;
+      top: 600px;
   }
