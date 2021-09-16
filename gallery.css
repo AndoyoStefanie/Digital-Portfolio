@@ -69,6 +69,12 @@ footer{
     font-family: "Glory";
     letter-spacing: 1px;
 }
+
+h1{
+    color:white;
+    overflow: auto;
+    margin-left: 600px;
+}
 h2{
     margin: 5px;
     border: 1px solid #ccc;
@@ -79,9 +85,11 @@ h2{
 h3{
     margin: 5px;
     border: 1px solid #ccc;
-    float: center;
+   
     width: 150px;
-    align-items: center;
+    align-content: center;
+    bottom: 30px;
+    top: 20px;
 }
 
 h4{
@@ -90,3 +98,24 @@ h4{
     float: center;
     width: 150px;
 }
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 470px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
