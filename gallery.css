@@ -48,3 +48,24 @@ nav a:hover {
     border:1px solid #ccc;
     width: 390px;
 }
+.gallery img{
+    width:100%;
+    height: auto;
+
+}
+
+.desc{
+    padding:15;
+    text-align: center;
+}
+
+footer{
+    padding:10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: #242B64;
+    color:white;
+    font-family: "Glory";
+    letter-spacing: 1px;
+}
