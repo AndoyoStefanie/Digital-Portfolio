@@ -7,7 +7,7 @@
     font-size: 17px;
 }
 nav a:hover{
-    background: skyblue;
+    background:#81b1ce;
     color:black;
 }
   body {
@@ -21,4 +21,8 @@ footer{
     font-size: 20px;
     align-items: center;
     margin-right: 500;
+}
+h2{
+    font-size: 50px;
+    font-family: "Glory", sans-serif;
 }
