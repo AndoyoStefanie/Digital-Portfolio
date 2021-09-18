@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   outline: none;
+  font-family: "Glory", sans-serif;
 }
 
 body{
@@ -10,9 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url("bg.png"), -webkit-linear-gradient(bottom, #FE612C,  #FF872C);
+  background: url('https://www.yoh.com/hs-fs/hubfs/Images/COVID/HealthcarePhotoSM.jpg?width=2250&name=HealthcarePhotoSM.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
-
 .container{
   width: 30px;
   background: #fff;
