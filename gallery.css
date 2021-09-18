@@ -119,3 +119,6 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
+  .column {
+    width: 100%;
+  }
