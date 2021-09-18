@@ -17,7 +17,7 @@ body{
   
 }
 .container{
-  width: 30px;
+  width: 330px;
   background: #fff;
   border-radius: 5px;
   text-align: center;
@@ -29,11 +29,14 @@ body{
   font-weight: 600;
   margin: 0 0 30px 0;
 }
-
 .container .form-outer{
-  display: flex;
   width: 100%;
-  overflow: hidden;
+}
+
+.form-outer form{
+  display: flex;
+  width: 400%;
+  
 }
 .form-outer form .page{
   width: 25%;
@@ -48,9 +51,16 @@ body{
   height: 45px;
   width: 330px;
   margin: 45px 0;
-  display: flex;
   position: relative;
 }
+
+.form-outer form .page .field .label{
+  position: absolute;
+  top: -30px;
+  font-weight: 500;
+
+}  
+
 .form-outer form .page .field input{
   height: 100%;
   width: 100%;
