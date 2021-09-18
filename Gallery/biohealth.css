@@ -46,11 +46,11 @@ nav a:hover {
 .gallery{
     margin: 5px;
     border:1px solid #ccc;
-    width: 390px;
+    width: 500px;
 }
 .gallery img{
     width:100%;
-    height: auto;
+    height:auto;
 
 }
 
