@@ -3,16 +3,15 @@
     box-sizing: border-box;
 }
 body{
-margin: 0;
-background: #81b1ce;
-font-family: "Glory", sans-serif;
+    margin: 0;
+    background: #81b1ce;
+    font-family: "Glory", sans-serif;
 }
 nav{
     background:  #242B64;
     width:100%;
     overflow: auto;
 }
-
 ul{
     margin: 0;
     padding: 0;
@@ -70,35 +69,6 @@ footer{
     letter-spacing: 1px;
 }
 
-h1{
-    color:white;
-    overflow: auto;
-    margin-left: 600px;
-}
-h2{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 150px;
-
-}
-h3{
-    margin: 5px;
-    border: 1px solid #ccc;
-   
-    width: 150px;
-    align-content: center;
-    bottom: 30px;
-    top: 20px;
-}
-
-h4{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: center;
-    width: 150px;
-}
-
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -114,9 +84,9 @@ div.gallery {
     width: 100%;
     height: auto;
   }
-  
   div.desc {
     padding: 15px;
+    width: 600px;
     text-align: center;
   }
   .column {
