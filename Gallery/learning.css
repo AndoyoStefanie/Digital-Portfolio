@@ -6,6 +6,7 @@ body{
 margin: 0;
 background: #81b1ce;
 font-family: "Glory", sans-serif;
+align-items: center;
 }
 nav{
     background:  #242B64;
