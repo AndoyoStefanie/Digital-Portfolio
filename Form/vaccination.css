@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
 *{
   margin: 0;
   padding: 0;
   outline: none;
   font-family: "Glory", sans-serif;
 }
-
 body{
   display: flex;
   align-items: center;
@@ -14,7 +13,6 @@ body{
   background: url('https://www.yoh.com/hs-fs/hubfs/Images/COVID/HealthcarePhotoSM.jpg?width=2250&name=HealthcarePhotoSM.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 .container{
   width: 330px;
@@ -22,7 +20,6 @@ body{
   border-radius: 5px;
   text-align: center;
   padding: 50px 35px 10px 35px;
-
 }
 .container header{
   font-size: 35px;
@@ -33,28 +30,25 @@ body{
   width: 100%;
   overflow: hidden;
 }
-
-.form-outer form{
+.container .form-outer form{
   display: flex;
   width: 400%;
-  
 }
 .form-outer form .page{
   width: 25%;
+  transition: margin-left 0.3s ease-in-out;
 }
 .form-outer form .page .title{
   text-align: left;
   font-size: 25px;
   font-weight: 500;
 }
-
 .form-outer form .page .field{
   height: 45px;
   width: 330px;
   margin: 45px 0;
   position: relative;
 }
-
 .form-outer form .page .field .label{
   position: absolute;
   top: -30px;
@@ -82,35 +76,30 @@ form .page .field select{
   background: #203354;
   border-radius: 5px;
   color: #fff;
-  font-size: 500;
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;
   transition: 0.3s ease;
 }
-
 .form-outer form .page .field button:hover{
   background: #81b1ce;
 }
-
 .form-outer form .page .btns button{
   margin-top: -20px!important;
 }
-
 .form .page .btns button .prev{
   margin-right: 3px;
   font-size: 17px;
 }
-
 .form .page .btns button .next{
   margin-left: 3px;
   font-size: 17px;
 }
 form .page .btns button .next{
   margin-left: 3px;
-
 }
-
 .container .progress-bar{
   display: flex;
   margin: 40px 0;
@@ -122,26 +111,39 @@ form .page .btns button .next{
 }
 .progress-bar .step p{
   font-size: 18px;
+  font-weight: 500;
   color:#000;
   margin-bottom: 8px;
 }
-
 .progress-bar .step .bullet{
   position: relative;
   height: 25px;
   width: 25px;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
   border: 2px solid #000;
   display: inline-block;
   border-radius: 50%;
- 
-}
 
+}
+.progress-bar .step .bullet.active{
+  border-color: #d43f8d;
+  background: #d43f8d;
+}
+.progress-bar .step .bullet span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.progress-bar .step .bullet.active span{
+  display: none;
+}
 .progress-bar .step:last-child .bullet:before,
 .progress-bar .step:last-child .bullet:after{
  display: none;
-
 }
-
 .progress-bar .step .bullet:before,
 .progress-bar .step .bullet:after{
   position: absolute;
@@ -151,17 +153,13 @@ form .page .btns button .next{
   height: 3px;
   width: 44px;
   background: #262626;
-
-
 }
-
 .progress-bar .step .bullet:after{
   background: #d43f8d;
   transform: scaleX(0);
   transform-origin: left;
   animation: animate 0.3s linear forwards;
 }
-
 @keyframes animate {
  100%{
    transform: scaleX(1)
@@ -173,9 +171,12 @@ form .page .btns button .next{
   line-height: 25px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
 }
-
+.progress-bar .step p.active{
+  color: #d43f8d;
+  transition: 0.2s linear;
+}
 .progress-bar .step .check{
   position: absolute;
   left: 50%;
@@ -183,4 +184,8 @@ form .page .btns button .next{
   font-size: 15px;
   transform: translate(-50%, -50%);
   display: none;
+}
+.progress-bar .step .check.active{
+  display: block;
+  color: #fff;
 }
