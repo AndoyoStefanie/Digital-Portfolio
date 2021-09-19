@@ -64,7 +64,7 @@ background-color: gray;
 
 }
 body{
-    background-color: #3B3E79;
+    background: url("bg.png"), -webkit-linear-gradient(bottom, 	#151269, #aad6ec);
 }
 .content{
     font-family: 'Urbanist';
