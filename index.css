@@ -20,14 +20,11 @@
     left:0;
     font-family:'Urbanist';   
 }
-
 .navbar a{
     text-decoration: none;
     color:#d8d8d8;
 }
-
 .navbar a.nav-logo{
-    
     float: left;
     height: inherit;
     line-height: inherit;
@@ -39,7 +36,6 @@
     color: #d8d8d8;
     font-weight:bold;
 }
-
 .navbar ul{
     float:right;
     list-style: none;
@@ -50,19 +46,14 @@
 .navbar ul li{
     display: inline-block;
 }
-
 .navbar ul li a{
-
     display: block;
     text-align: center;
     min-width: 120px;
     padding: 0 30px;
-
 }
 .navbar ul li a:hover{
-
 background-color: gray;
-
 }
 body{
     background: url("bg.png"), -webkit-linear-gradient(bottom, 	#151269, #aad6ec);
@@ -71,11 +62,9 @@ body{
     font-family: 'Urbanist';
     color:#d8d8d8;
     margin-top: 30px;
-  
 }
 p{
     margin-top: 10px;
-
 }
 main{
     display: grid;
@@ -103,10 +92,8 @@ main{
     border-radius: 20px;
     margin-right: 10px;
 }
-
 .btns:hover{
     background: #848482;
-
 }
 img{
     display: block;
@@ -117,24 +104,11 @@ img{
     left:80px;
     margin-top: 90px; 
 }
-
-
 .center {
-
-
     position: absolute;
-  
-  
     left: 50%;
-  
-  
     top: 50%;
-  
-  
     transform: translate(-50%, -50%);
-  
-  
-  
 }
 h1 {
     color: #0C1559;
@@ -144,7 +118,6 @@ h1 {
     position: absolute;
     top: 150px;
   }
-
 h2 {
     text-align: left;
     color:#aad6ec;
