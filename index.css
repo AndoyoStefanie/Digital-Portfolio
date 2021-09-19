@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -136,7 +137,7 @@ img{
   
 }
 h1 {
-    color: white;
+    color: #0C1559;
     margin: 35px 70px 50px;
     font-size: 70px;
     vertical-align: top;
@@ -146,7 +147,7 @@ h1 {
 
 h2 {
     text-align: left;
-    color: white;
+    color:#aad6ec;
     margin-right: 90px;
     margin-left: 90px;
     font-size: 30px;
@@ -156,9 +157,10 @@ h2 {
   h3 {
     margin-right: 90px;
     margin-left: 90px;
-    font-size: 18px;
+    font-size: 20px;
     position: absolute;
     top: 380px;
+    font-family: 'Glory';
   }
   h4{
     margin-right: 90px;
