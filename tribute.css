@@ -4,7 +4,7 @@
 }
 html {
   font-family: "Glory", sans-serif;
-  font-size: 16.5px;
+  font-size: 17px;
   text-align: justify;
 }
 header {
@@ -47,7 +47,7 @@ body{
   }
   #codedby{
     text-align:center;
-    
+    font-size: 17px;
   }
 
   img source{

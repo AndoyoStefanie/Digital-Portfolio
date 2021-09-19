@@ -181,3 +181,44 @@ form .page .btns button.next{
   display: block;
   color: #fff;
 }
+footer{
+  text-align:bottom;
+  background-color: #203354;
+  padding: 1px;
+  font-size:17px;
+  margin: 0.5;
+  color: whitesmoke;
+  max-width: 900px;
+}
+nav{
+  background:  #242B64;
+  width:100%;
+  overflow: auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none ;
+}
+li{
+  float: left;
+}
+nav a {
+  width: 120px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background: #3B3E79;
+  font-size: 17px;
+  color: white;
+  padding:20px 10px;
+  font-family: Glory;
+  align-items: baseline;
+  top: 70;
+
+}
+nav a:hover {
+  background: skyblue;
+  color: black;
+}
