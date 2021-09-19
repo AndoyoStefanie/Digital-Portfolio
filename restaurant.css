@@ -16,7 +16,7 @@ nav a:hover{
     background-size: 1600px 1400px;
     }
 footer{
-    background: url("bg.png"), -webkit-linear-gradient(bottom, 	#151269, #aad6ec);
+    background:#151269;
     color: white;
     font-size: 20px;
     align-items: center;
