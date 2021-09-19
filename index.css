@@ -7,7 +7,7 @@
     font-family: "Urbanist", sans-serif;
 }
 .navbar{
-    background-color: #242B64;
+    background-color: 	#0f1056;
     color:#d8d8d8;
     border-bottom: 0.5px solid gray;
     width: 100%;
@@ -53,10 +53,10 @@
     padding: 0 30px;
 }
 .navbar ul li a:hover{
-background-color: gray;
+background-color: #151269;
 }
 body{
-    background: url("bg.png"), -webkit-linear-gradient(bottom, 	#151269, #aad6ec);
+    background: url("bg.png"), -webkit-linear-gradient(bottom, 	#aad6ec, #151269);
 }
 .content{
     font-family: 'Urbanist';

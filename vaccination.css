@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,400;1,100&display=swap');
 *{
   margin: 0;
   padding: 0;
   outline: none;
-  font-family: 'Glory', sans-serif;
+  font-family: 'Urbanist', sans-serif;
 }
 body{
   display: flex;
@@ -11,7 +11,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-  background: url("bg.png"), -webkit-linear-gradient(bottom, 	#151269, #aad6ec);
+  background: url("bg.png"), -webkit-linear-gradient(bottom, #aad6ec,	#151269);
 }
 ::selection{
   color: #fff;
