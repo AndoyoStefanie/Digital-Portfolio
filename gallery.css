@@ -75,7 +75,7 @@ footer{
     letter-spacing: 1px;
 }
 h1{
-    color:white;
+    color:#242B64;
     overflow: auto;
     margin-left: 600px;
 }
@@ -116,6 +116,4 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-  .column {
-    width: 100%;
-  }
+  
