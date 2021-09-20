@@ -100,7 +100,8 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 470px;
+    width: 500px;
+    align-content: space-between;
   }
   div.gallery:hover {
     border: 1px solid #777;
