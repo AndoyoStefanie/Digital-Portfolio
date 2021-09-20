@@ -69,7 +69,8 @@ else {
 
 
 
-
+/*let index = 0 be the first element, after we compare the current element with the next element of the array.
+*/
 
 function bubble_Sort(a)
 {
@@ -80,18 +81,19 @@ function bubble_Sort(a)
         swapp = false;
         for (var i=0; i < n; i++)
         {
+           /* If the current element is greater than the next element of the array, we swap them.*/
             if (x[i] < x[i+1])
             {
-               var temp = x[i];
+               var temp = x[i]; 
                x[i] = x[i+1];
                x[i+1] = temp;
-               swapp = true;
+               swapp = true; /*If the current element is less than the next or right side of the element, we proceed to
+               move to the next element. We then repeat Step 1 until we reach the end of the index*/
             }
         }
         n--;
     } while (swapp);
  return x; 
 }
-
 console.log(bubble_Sort([12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213]));
 
